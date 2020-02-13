@@ -4,7 +4,7 @@ Requirements:
 
 To install, run:
    
-    LDFLAGS="-L$(psp-config --pspsdk-path)/lib" LIBS="-lc -lpspuser -lpspnet_inet -lpspnet_resolver -lpspnet" configure --host psp --prefix=$(psp-config --psp-prefix)
+    LDFLAGS="-L$(psp-config --pspsdk-path)/lib" LIBS="-lc -lpspuser -lpspnet_inet -lpspnet_resolver -lpspnet" ./configure --host psp --prefix=$(psp-config --psp-prefix)
     make
     make install
 
